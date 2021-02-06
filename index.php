@@ -1,3 +1,3 @@
 <?php
-    echo "Basic setups done!";
+    echo "Basic setups done! No let's start!";
 ?>
