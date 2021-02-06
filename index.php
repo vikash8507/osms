@@ -174,17 +174,17 @@
                 <!-- Start Contact Us 2nd Column-->
                 <strong>Headquarter:</strong> <br>
                 OSMS Pvt Ltd, <br>
-                Sec IV, Bokaro <br>
-                Jharkhand - 834005 <br>
-                Phone: +00000000 <br>
+                132 C Sector, Indrapuri, Bhopal <br>
+                Madhya Prades - 462022 <br>
+                Phone: +7004987522 <br>
                 <a href="#" target="_blank">www.osms.com</a> <br>
 
                 <br><br>
-                <strong>Delhi Branch:</strong> <br>
+                <strong>Bengalore Branch:</strong> <br>
                 OSMS Pvt Ltd, <br>
-                Ashok Nagar, Delhi <br>
-                Delhi - 804002 <br>
-                Phone: +00000000 <br>
+                132 C Sector, Indrapuri, Bhopal <br>
+                Madhya Prades - 123456 <br>
+                Phone: +62.5531358 <br>
                 <a href="/" target="_blank">www.osms.com</a> <br>
             </div> <!-- End Contact Us 2nd Column-->
         </div> <!-- End Contact Us Row-->
@@ -209,7 +209,7 @@
 
                 <div class="col-md-6 text-right">
                     <!-- Start Footer 2nd Column -->
-                    <small> Designed by Someone &copy; 2018.
+                    <small> Designed by Vikash &copy; 2021.
                     </small>
                     <small class="ml-2"><a href="#">Admin Login</a></small>
                 </div> <!-- End Footer 2nd Column -->
