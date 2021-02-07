@@ -34,7 +34,7 @@
                 <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="#Services" class="nav-link">Services</a></li>
                 <li class="nav-item"><a href="#registration" class="nav-link">Registration</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
+                <li class="nav-item"><a href="./requester/requesterLogin.php" class="nav-link">Login</a></li>
                 <li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
@@ -45,7 +45,7 @@
         <div class="myclass mainHeading">
             <h1 class="text-uppercase text-danger font-weight-bold">Welcome to OSMS</h1>
             <p class="font-italic">Customer's Happiness is our Aim</p>
-            <a href="Requester/RequesterLogin.php" class="btn btn-success mr-4">Login</a>
+            <a href="./requester/requesterLogin.php" class="btn btn-success mr-4">Login</a>
             <a href="#registration" class="btn btn-danger mr-4">Sign Up</a>
         </div>
     </header> <!-- End Header Jumbotron -->
