@@ -211,7 +211,7 @@
                     <!-- Start Footer 2nd Column -->
                     <small> Designed by Vikash &copy; 2021.
                     </small>
-                    <small class="ml-2"><a href="#">Admin Login</a></small>
+                    <small class="ml-2"><a href="./admin/adminLogin.php">Admin Login</a></small>
                 </div> <!-- End Footer 2nd Column -->
             </div> <!-- End Footer Row -->
         </div> <!-- End Footer Container -->
