@@ -57,7 +57,7 @@ include('./includes/header.php') ?>
         <?php }
         if (isset($msg)) { ?>
             <div class="alert alert-success alert-dismissible fade show" role="alert">
-                <strong>Error: </strong> <?php echo $msg; ?>
+                <strong>Success: </strong> <?php echo $msg; ?>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
