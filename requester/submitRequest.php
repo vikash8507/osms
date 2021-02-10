@@ -22,11 +22,14 @@ if (isset($_REQUEST['submitrequest'])) {
     if (($requestinfo == '') || ($requestdesc == '') || ($requestername == '') || ($requestercity == '') || ($requesteradd == '') || ($requesterstate == '') || ($requesterzip == '') || ($requestermobile == '') || ($requestdate == '')) {
         $error = "All fields are required!";
     } else {
-        $q = "INSERT INTO request(req_info, req_desc, req_name, req_add, req_city, req_state, req_zip, req_mobile, req_date) 
-        VALUES ('$requestinfo', '$requestdesc', '$requestername', '$requesteradd', '$requestercity', '$requesterstate', '$requesterzip', '$requestermobile', '$requestdate')";
+        $q = "INSERT INTO request(req_info, req_desc, req_name, req_add, req_city, req_state, req_zip, req_email, req_mobile, req_date) 
+        VALUES ('$requestinfo', '$requestdesc', '$requestername', '$requesteradd', '$requestercity', '$requesterstate', '$requesterzip', '$email', '$requestermobile', '$requestdate')";
 
         if ($conn->query($q)) {
+            $reqid = mysqli_insert_id($conn);
+            $_SESSION['req_id'] = $reqid;
             $msg = "Request submit successfully! Please wait We try to solve your problem as soon as possible.";
+            echo '<script> location.href="./requestSuccess.php"; </script>';
         } else {
             $error = "Request not submit now! Please wait after some time.";
         }

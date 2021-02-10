@@ -46,13 +46,13 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="">
+                            <a class="nav-link " href="/osms/requester/changePassword.php">
                                 <i class="fas fa-key"></i>
                                 Change Password
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">
+                            <a class="nav-link" href="./../logout.php">
                                 <i class="fas fa-sign-out-alt"></i>
                                 Logout
                             </a>
